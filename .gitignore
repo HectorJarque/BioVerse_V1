@@ -1,0 +1,99 @@
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+__screenshots__/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Gradle / Kotlin
+backend/.gradle/
+backend/build/
+backend/gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+backend/local.properties
+*.class
+*.jar
+!**/build/libs/*.jar
+
+# Angular / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.sass-cache/
+frontend/connect.lock
+frontend/coverage/
+frontend/libpeerconnection.log
+frontend/.env
+frontend/.env.local
+
+# Docker
+mongo-data/
+
+# ENV
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Windows
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+
+#Secrets
+backend/.env
+backend/.env.*
+!backend/.env.example
